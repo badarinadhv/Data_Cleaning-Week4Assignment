@@ -32,4 +32,5 @@ for (i in c(1:84)) {
 ## Averages on each measurement ( Point-4 Assignment) and display of the table of Averages
 Average<-sapply(DT_Train_test_subset, mean )    
 View(Average)
-write.csv(DT_Train_test_subset,"Tidy_data_train_test.csv")
+write.table(DT_Train_test_subset,"Tidy_data_train_test.txt")
+write.table(t(Average),"Average_signals.txt",row.name=FALSE)
