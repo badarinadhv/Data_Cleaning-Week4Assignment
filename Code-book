@@ -1,0 +1,45 @@
+Names of the variables(columnNames in the tidy data set
+1] "tBodyAccmeanX"                      "tBodyAccmeanY"                      "tBodyAccmeanZ"                      "tBodyAccstdX"                      
+ [5] "tBodyAccstdY"                       "tBodyAccstdZ"                       "tGravityAccmeanX"                   "tGravityAccmeanY"                  
+ [9] "tGravityAccmeanZ"                   "tGravityAccstdX"                    "tGravityAccstdY"                    "tGravityAccstdZ"                   
+[13] "tBodyAccJerkmeanX"                  "tBodyAccJerkmeanY"                  "tBodyAccJerkmeanZ"                  "tBodyAccJerkstdX"                  
+[17] "tBodyAccJerkstdY"                   "tBodyAccJerkstdZ"                   "tBodyGyromeanX"                     "tBodyGyromeanY"                    
+[21] "tBodyGyromeanZ"                     "tBodyGyrostdX"                      "tBodyGyrostdY"                      "tBodyGyrostdZ"                     
+[25] "tBodyGyroJerkmeanX"                 "tBodyGyroJerkmeanY"                 "tBodyGyroJerkmeanZ"                 "tBodyGyroJerkstdX"                 
+[29] "tBodyGyroJerkstdY"                  "tBodyGyroJerkstdZ"                  "tBodyAccMagmean"                    "tBodyAccMagstd"                    
+[33] "tGravityAccMagmean"                 "tGravityAccMagstd"                  "tBodyAccJerkMagmean"                "tBodyAccJerkMagstd"                
+[37] "tBodyGyroMagmean"                   "tBodyGyroMagstd"                    "tBodyGyroJerkMagmean"               "tBodyGyroJerkMagstd"               
+[41] "fBodyAccmeanX"                      "fBodyAccmeanY"                      "fBodyAccmeanZ"                      "fBodyAccstdX"                      
+[45] "fBodyAccstdY"                       "fBodyAccstdZ"                       "fBodyAccmeanFreqX"                  "fBodyAccmeanFreqY"                 
+[49] "fBodyAccmeanFreqZ"                  "fBodyAccJerkmeanX"                  "fBodyAccJerkmeanY"                  "fBodyAccJerkmeanZ"                 
+[53] "fBodyAccJerkstdX"                   "fBodyAccJerkstdY"                   "fBodyAccJerkstdZ"                   "fBodyAccJerkmeanFreqX"             
+[57] "fBodyAccJerkmeanFreqY"              "fBodyAccJerkmeanFreqZ"              "fBodyGyromeanX"                     "fBodyGyromeanY"                    
+[61] "fBodyGyromeanZ"                     "fBodyGyrostdX"                      "fBodyGyrostdY"                      "fBodyGyrostdZ"                     
+[65] "fBodyGyromeanFreqX"                 "fBodyGyromeanFreqY"                 "fBodyGyromeanFreqZ"                 "fBodyAccMagmean"                   
+[69] "fBodyAccMagstd"                     "fBodyAccMagmeanFreq"                "fBodyBodyAccJerkMagmean"            "fBodyBodyAccJerkMagstd"            
+[73] "fBodyBodyGyroMagmean"               "fBodyBodyGyroMagstd"                "fBodyBodyGyroMagmeanFreq"           "fBodyBodyGyroJerkMagmean"          
+[77] "fBodyBodyGyroJerkMagstd"            "angletBodyAccMean,gravity"          "angletBodyAccJerkMean,gravityMean"  "angletBodyGyroMean,gravityMean"    
+[81] "angletBodyGyroJerkMean,gravityMean" "angleX,gravityMean"                 "angleY,gravityMean"                 "angleZ,gravityMean" 
+
+Processed signals( After Fourier transform ) were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions. 
+"t: refers to time domain
+"f" referes to the frequency domain
+ 
+The set of variables in the tidy set were estimated from these signals are: 
+mean(): Mean value
+std(): Standard deviation
+
+References 
+One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+For each record in the dataset it is provided:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope.
+- A 561-feature vector with time and frequency domain variables.
+- Its activity label.
+- An identifier of the subject who carried out the experiment.
+
+
